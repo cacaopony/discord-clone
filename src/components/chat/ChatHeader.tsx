@@ -4,6 +4,8 @@ import NotificationsIcon from '@mui/icons-material/Notifications';
 import PushPinIcon from '@mui/icons-material/PushPin';
 import PeopleAltIcon from '@mui/icons-material/PeopleAlt';
 import SearchIcon from '@mui/icons-material/Search';
+import SendIcon from '@mui/icons-material/Send';
+import HelpIcon from '@mui/icons-material/Help';
 
 const ChatHeader = () => {
     return <div className="chatHeader">
@@ -22,6 +24,8 @@ const ChatHeader = () => {
                 </input>
                 <SearchIcon></SearchIcon>
             </div>
+            <SendIcon></SendIcon>
+            <HelpIcon></HelpIcon>
         </div>
     </div>
 }
